@@ -136,7 +136,7 @@ Promise.all([
             .style('visibility', 'hidden');
 
         let radius = [80, 65, 50, 35, 20];
-        let prices = ['100', '200', '400', '600', '>600']
+        let prices = ['$100', '$200', '$400', '$600', '>$600']
 
         anoCircle = annotation.selectAll('.circleSymbol')   
             .data(radius);
@@ -166,7 +166,7 @@ Promise.all([
             .attr('x', 0)
             .attr('y', (d, i) => -radius[i]+5)
             .attr('fill', 'rgb(63, 100, 133)')
-            .text(d => `$${d}`);
+            .text(d => `${d}`);
     }
 
     //updating the layout when clicking the switch on the page
