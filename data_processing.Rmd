@@ -1,0 +1,24 @@
+---
+title: "airbnb"
+output: html_document
+---
+
+```{r setup, include=TRUE}
+library(tidyverse);
+library(stringr);
+```
+
+
+```{r}
+data <- read.csv('data/airbnb.csv')
+airbnb <- data %>% select(roomType = room_type,
+                          city = city,
+                          long = longitude,
+                          lat = latitude,
+                          price = price,
+                          ) %>% 
+  mutate(city = str_to_title(city))
+
+write.csv(airbnb, 'data/reduced_airbnb.csv');
+
+```

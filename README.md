@@ -1,4 +1,6 @@
-# Week 6 Assignment
+# Tingsong Ou - Week 6 Assignment Submission
+
+--------Following are assignment requirements--------
 
 ### Requirements
 Please take a look at reference.png and try to create something similar with the force-layouts
