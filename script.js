@@ -13,7 +13,7 @@ const containerG = svg.append('g').classed('container', true)
 let radialForce = false;
 
 Promise.all([
-    d3.csv('/data/reduced_airbnb.csv')
+    d3.csv('data/reduced.csv')
 ]).then(data => {
 
     let airbnbData = data[0];

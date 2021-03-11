@@ -1,4 +1,5 @@
 # Tingsong Ou - Week 6 Assignment Submission
+GithubPages:https://tingsong-ou.github.io/Week-6-assignment/
 
 --------Following are assignment requirements--------
 
